@@ -1,0 +1,53 @@
+wyrozniamy topologie fizyczne i logiczne sieci
+topologia fizyczna okresla, w jaki sposob urzadzenia i hosty sa ze soba polaczane.
+topologia logiczna okresla sposob przeslylania danych miedzy urzadzeniami sieciowymi a hostami
+
+wyrozniamy nastepujace topologie fizyczne
+
+- topologia magistrali(bus)
+charkteryzuje sie tym ze wszytskie urzadzenia sa podalczane do wspolnego medium transmisyjnegop(kabel koncentryczny)
+	zalety:
+	- niewielki kosz wdrozenia(brak urzadzen dostepowych)
+	wada:
+	- mala przepustowosc(10Mb maks)
+	- podatnosc na awarie sieci(przerwanie magistrali w dowolnym miejscu zabiera dostep 
+	do internetu kazdemu urzadzeniu)
+
+- topologia fizyczna pierscienia
+w topologi pierscienia kazde urzadzenie polaczane jest poloczane z dwoma sasiadami tworzac zamkniety krag.
+	zalety:
+	- stosowanie malej ilosci okablowania
+	- niewielki koszt
+	wady:
+	- podatnosc na awarie(przerwanie medium transmisyjnego lub awaria hosta spowoduje brak dostepu do internetu
+
+- topologia fizyczna gwiazdy
+w topologi gwiazdy urzadzenia podlaczane sa do centralnego punktu, stanowiacego punkt dostepowy do sieci(router lub switch)
+	zalety:
+	- prosta w zaprojektowaniu
+	- latwe adminstracja siecia 
+	- odporna na awarie
+	wady:
+	- koszt rozbudowy sieci(wymagane dodatkowe urzadzenia)
+	- ilosc hostow z dostepem do internetu przewodowo zalezna od urzadzen siecowych
+
+- topologia fizyczna gwiazdy rozszerzonej
+	zalety:
+	- mozliwosc laczenia ze soba mniejszych sieci
+	_ ograniczenie liczby kabli miedzy glownym  przelacznikiem a znacznie  oddalonymi grupami komputerow i urzadzen
+	wady:
+	- koniecznosc rozbudowy infrastruktury o dodatkowe urzadzenia	
+	- zwiekszenie poboru energi przez infrastrukture
+	- koniecznosc przygowania odpwiednich miejsc na dodatkowe przelaczniki
+
+- topologia fizyczna p2p
+
+topologie logiczne
+
+- punkt-punkt
+  w topologii tego typu dane przesylane sa od 1 urzadzenia do drugiego bezposrednio na przyklad konputer z przelacznikiem, lub posrednio naprzyklad dwa router'y.
+  topologie punkt-punkt wykorzystuje sie w topologi fizycznej gwiazdy
+
+- topologia logiczna przekazywania zetonu(token passing)
+  dane przekazywane sa kolejno do urzadzen polaczanych w siec .urzadzenie ktore otzryma porcje danych, analizuje czy sa one kierowane do niego czy tez  nie. jesli dane nie sa do niego adresowane, przekazuje je dalej, do sasiedniego urzadzenia. W taki sposob, dane przesylane sa przez wyszystkie urzadzenia wystepujace pomiedzy urzadzeniem zrodlowym a docelowym
+  

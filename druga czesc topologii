@@ -1,9 +1,0 @@
-peer-to-peer
-TOPOLOGIE LOGICZNE
-- punkt-punkt
-  w topologii tego typu dane przesylane sa od 1 urzadzenia do drugiego bezposrednio na przyklad konputer z przelacznikiem, lub posrednio naprzyklad dwa router'y.
-  topologie punkt-punkt wykorzystuje sie w topologi fizycznej gwiazdy
-
-- topologia logiczna przekazywania zetonu(token passing)
-  dane przekazywane sa kolejno do urzadzen polaczanych w siec .urzadzenie ktore otzryma porcje danych, analizuje czy sa one kierowane do niego czy tez  nie. jesli dane nie sa do niego adresowane, przekazuje je dalej, do sasiedniego urzadzenia. W taki sposob, dane przesylane sa przez wyszystkie urzadzenia wystepujace pomiedzy urzadzeniem zrodlowym a docelowym
-  
