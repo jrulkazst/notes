@@ -50,4 +50,7 @@ topologie logiczne
 
 - topologia logiczna przekazywania zetonu(token passing)
   dane przekazywane sa kolejno do urzadzen polaczanych w siec .urzadzenie ktore otzryma porcje danych, analizuje czy sa one kierowane do niego czy tez  nie. jesli dane nie sa do niego adresowane, przekazuje je dalej, do sasiedniego urzadzenia. W taki sposob, dane przesylane sa przez wyszystkie urzadzenia wystepujace pomiedzy urzadzeniem zrodlowym a docelowym
-  
+
+-topologia fizyczna wielodostepowa
+  umozliwia komunijacje urzadzen w siecia poprzez 1 fizyczne medium transmisyjne
+  wykorzystwana jest w topologi fizycznej magistrali
