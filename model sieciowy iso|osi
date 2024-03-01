@@ -1,1 +1,25 @@
 Model sieciowy ISO/OSI
+(Open Systems Interconnection Reference Model)
+Model ten zostal stworzony w celu normalizacji zasad komunikacji w sieci. Model ten zostal przygowtowany z mysla o tworzeniu tak zwanego 
+systemu otwartego, ktory nie bedzie nalezal do zadnej zamknietej sieci. Model ten jest modelem pogladowym(teoretycznym) i zostal podzielony na 
+7 warstw 
+
+warstwa 7 - warstwa aplikacji
+umozliwia komunikacje z uzytkownikiem(strony www, poczta elektroniczna)
+
+warstwa 6 - warstwa prezentacji
+zajmuje sie konwersja danych i definiowanie formatu; odpowiada rowniez za odpowiednie kodowanie danych(szyfrownaie) na urzadzeniu zrodlwym
+i ich odkodowanie na urzadzeniu docelowym
+
+warstwa 5 - warstwa sesji
+zarzadzajaca sesjami urzytkownikow korzystajacych np. ze stron www czy komunikacji wideo
+
+warstwa 4 - warstwa transportu 
+glownym zadaniem jest sprawna obsluga komunikacji pomiedzy urzadzeniami. W warstwie tej dane dzielone sa na mniejsze czesci(segmentowanie)
+a nastepnie opatrywane sa dodatkowymi informacjami, miedzy innymi nadawane sa numery porzadkowe ktore pozwalaja na przydzielenie do wlasciwej 
+aplikacji
+
+warstwa 3 - warstwa sieci
+segmenty danych sa wzbogacane  o naglowki sieci zawierajace adres IP zrodla i celu  w ten sposb tworzy sie pakiety danych. Glownym zadaniem warstwy sieciowej jest wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w neij pakietow 
+
+Enkapsulacja danych - przechodzenie z warstwy najwyzszej na warstwe najnizsza 
