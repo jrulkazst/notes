@@ -1,1 +1,12 @@
+1 warstwa  - warstwa aplikacji(warstwa sesji + warstwa prezentacji + warstwsa aplikacji w modelu iso)
+zajmuje sie reprezentacja danych dla uzytkownika oraz ich kodowanie
+
+2 warstwa - warstwa transportowa(wartswa transportowa w modelu iso)
+zapewnia komunikacje pomiedzy roznymi urzadzeniami w sieci 
+
+3 warstwa -  warstwa internetu(warstwa sieci w modelu iso)
+zapewnia najlepsza trase dla przeplywu pakietow 
+
+4 warstwa - warstwa dostepu do sieci(warstwa fizyczna + wartswa lacza danych w modelu iso)
+kontroluje urzadzenia fizyczne i media
 
