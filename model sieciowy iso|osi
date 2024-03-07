@@ -20,6 +20,12 @@ a nastepnie opatrywane sa dodatkowymi informacjami, miedzy innymi nadawane sa nu
 aplikacji
 
 warstwa 3 - warstwa sieci
-segmenty danych sa wzbogacane  o naglowki sieci zawierajace adres IP zrodla i celu  w ten sposb tworzy sie pakiety danych. Glownym zadaniem warstwy sieciowej jest wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w neij pakietow 
+segmenty danych sa wzbogacane  o naglowki sieci zawierajace adres IP zrodla i celu  w ten sposb tworzy sie pakiety danych. Glownym zadaniem warstwy sieciowej jest wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w neij pakietow
 
-Enkapsulacja danych - przechodzenie z warstwy najwyzszej na warstwe najnizsza 
+warstwa 2 - warstwa lacza danych
+glownym zadaniem jest wykrywanie i korygowwanie beldow na jakie narazona jest komunikacja w sieci. dodatkowo zajmuje sie podzialem wysylanego pakietu na ramki ktore posiadaja informacje o architekturze sieci 
+
+warstwa 1 - warstwa fizyczna 
+koduje dane do postaci czystych bitow(0 i 1) i przesyla je poprzez medium transmisyjne do odpowiednich urzadzen
+
+Enkapsulacja danych - przechodzenie(zamiana) danych z warstwy wyzszej na warstwe nizszej 
