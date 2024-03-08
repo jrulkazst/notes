@@ -8,3 +8,9 @@
 
 - IMAP(Internet Message Access Protocol) - uzywa sie go do odbioru poczty elektronicznej
 
+- Telnet(Telecommunication Protocol) - protokol do obslugi terminala zdalnego urzadzenia
+
+- FTP(File Transfer Protocol) - sluzy do przesylania plikow miedzy klientem a serwerem FTP
+
+- SSH(Secure Shell) - protokol ktorego uzywa sie do emulacji(symulowania dzialania) terminala sieciowego. Zapewnia szyfrowanie polaczenia 
+
