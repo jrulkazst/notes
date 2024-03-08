@@ -1,1 +1,5 @@
+- DNS(Domain Name System) jest uzywany do odwzorowania nazw w internecie na adresy ip
 
+- HTTP(Hypertext Transfer Protocol) - uzywany do przesylania plikow hipertekstowych, czyli stron www
+
+- HTTPS(Hypertext Transfer Protocol Secure) - szyfrowana wersja protokolow http
