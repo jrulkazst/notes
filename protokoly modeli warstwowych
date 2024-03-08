@@ -3,3 +3,8 @@
 - HTTP(Hypertext Transfer Protocol) - uzywany do przesylania plikow hipertekstowych, czyli stron www
 
 - HTTPS(Hypertext Transfer Protocol Secure) - szyfrowana wersja protokolow http
+
+- SMTP(Simple Mail Transfer Protocol) - sluzy do wysylania wiadomosci poczty elektronicznej wraz z zalacznikami
+
+- IMAP(Internet Message Access Protocol) - uzywa sie go do odbioru poczty elektronicznej
+
