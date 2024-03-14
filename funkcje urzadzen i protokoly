@@ -1,3 +1,5 @@
 urzadzenia niezbedne do obslugi i funkcjonowania sieci mozemy podzielic na 3 grupy:
-- urzadzenia transmisji
-- 
+- urzadzenia transmisji sa wykorzystwane i przeznaczone do transportu sygnalu biegnacego przez siec(przewod sieciowy tak zwana skretka, swiatlowod)
+- urzadzenia dostepne sa odpowiedzialne za przygotowywanie danych do przesylu sieci(karta sieciowa, switch, router)
+- urzadzenia wzmacniania przesylanych sygnalow(ekspander zasiegu wifi)
+
